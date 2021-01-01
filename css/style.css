@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+}
+
+/* Dashboard Start */
+#dashboard{
+    height: 100%;
+}
+
+.buttonGroup{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttonGroup button{
+    padding: 5px !important;
+    width: 100%;
+    margin-right: 20px;
+}
+
+table th, table td{
+    vertical-align: middle !important;
+}
+.background-dark{
+    background-color: #343a40 !important;
+}
+.background-dark th{
+    color: #fff;
+}
+
+.kart *{
+    color: #fff;
+}
+
+.kart a:hover{
+    color: #000;
+}
+/* Dashboard End */
+
+
+/* Category Start*/
+.category-table thead tr {
+    background: #242424;
+}
+.category-table thead tr th {
+    color: white;
+}
+/* Category End */
+
+/* Add Post Modal Start */
+input[type="text"] {
+    border: 1px solid gray;
+    border-radius: 4px;
+    width: 97%;
+    height: 36px;
+    font-weight: bold;
+    margin-left: 3px;
+
+}
+
+select[type="text"] {
+    border: 1px solid gray;
+    border-radius: 4px;
+    width: 97%;
+    height: 36px;
+    color: gray;
+    font-weight: bold;
+}
+
+.modal-header {
+    background-color:  #007aff;
+    color: #f2f2f2;
+}
+
+form>textarea {
+    background-color: #f8f8f8;
+    width: 100%;
+    color: gray;
+    font-weight: bold;
+}
+
+.form-action{
+    background-color: white;
+}
+/* Add Post Modal End*/
+
+/* Footer Start */
+footer{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer{
+    position: absolute;
+    bottom: 0;
+}
+
+footer p{
+    margin: 0;
+    font-size: 25px;
+    color: #e0e0e0;
+}
+
+/* Footer End */
+
+/* Media Query */
+@media screen and (max-width: 992px) {
+    .buttonGroup{
+        width: 100%;
+    }
+}
