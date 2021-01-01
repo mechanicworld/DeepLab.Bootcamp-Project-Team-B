@@ -2,9 +2,13 @@
 
 DeepLab.Bootcamp Team project. According to reference images and examples, web-page was designed by Team-B
 
-Lecturers => Zeki SERT, Cihan ÖZHAN
+INSTRUCTORS
 
-Team Members 
+=> Cihan ÖZHAN
+
+=> Zeki SERT 
+
+TEAM MEMBERS
 
 => Eda OKYAY 
 
